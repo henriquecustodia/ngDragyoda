@@ -1,4 +1,4 @@
 # dragyoda
 
 
-Drag and Drop project in AngularJS
+Drag-and-drop project in AngularJS
