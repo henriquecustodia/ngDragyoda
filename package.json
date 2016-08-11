@@ -1,0 +1,28 @@
+{
+  "name": "ngdragyoda",
+  "version": "0.1.0",
+  "description": "Drag-and-drop's module for AngularJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -a localhost -p 8080"
+  },
+  "authors": [
+    {
+      "name": "Henrique Custódia",
+      "email": "martinshenrique8@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henriquecustodia/ngDragyoda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henriquecustodia/ngDragyoda/issues"
+  },
+  "homepage": "https://github.com/henriquecustodia/ngDragyoda#readme",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+}

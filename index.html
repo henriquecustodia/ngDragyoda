@@ -52,20 +52,29 @@
 
 <body>
     <div flex>
-        <div class="draggable" draggable>1</div>
-        <div class="draggable" draggable>2</div>
+        <div class="draggable" h-draggable>1</div>
+        <div class="draggable" h-draggable>2</div>
+        <div class="draggable" h-draggable>3</div>
+        <div class="draggable" h-draggable>4</div>
+        <div class="draggable" h-draggable>5</div>
+        <div class="draggable" h-draggable>6</div>
     </div>
     <div flex>
-        <div id="d1" class="droppable" droppable><div id="background">Drop</div></div>
-        <div id="d2" class="droppable" droppable><div id="background">Drop</div></div>
+        <div id="d1" class="droppable" h-droppable><div id="background">Drop</div></div>
+        <div id="d2" class="droppable" h-droppable><div id="background">Drop</div></div>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+    <div flex>
+        <div id="d1" class="droppable" h-droppable><div id="background">Drop</div></div>
+        <div id="d2" class="droppable" h-droppable><div id="background">Drop</div></div>
+    </div>
+
+    <script src="bower_components/angular/angular.min.js"></script>
     <script src="dnd-directive.js"></script>
     <script src="dnd-service.js"></script>
     
     <script>
-        angular.module('app', ['dragyoda']);
+        angular.module('app', ['hDragyoda']);
     </script>
 </body>
 

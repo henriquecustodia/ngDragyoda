@@ -1,16 +1,16 @@
 (function () {
     'use strict';
 
-    angular.module('dragyoda', [])
-        .directive('draggable', ['dragyodaService', draggable])
-        .directive('droppable', [droppable]);
+    angular.module('hDragyoda', [])
+        .directive('hDraggable', ['hDragyodaService', draggable])
+        .directive('hDroppable', [droppable]);
 
-    function draggable(dragyodaService) {
+    function draggable(hDragyodaService) {
         return {
             restrict: 'A',
             link: function (scope, element) {
                 var el = element[0];
-                var droppables = document.querySelectorAll('[droppable]');
+                var droppables = document.querySelectorAll('[h-droppable]');
 
                 el.onmousedown = function (e) {
                     var el = e.target;
@@ -27,14 +27,10 @@
                     var el = e.target;
                     onmousemove = null;
 
-                    dragyodaService.closest(el, droppables, function (droppableCloser) {
+                    hDragyodaService.closest(el, droppables, function (droppableCloser) {
                         el.style.position = '';
                         angular.element(droppableCloser).scope().addChild(el);
                     });
-                };
-
-                el.onmouseleave = function onMouseLeave() {
-
                 };
             }
         };

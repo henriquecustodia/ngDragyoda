@@ -1,7 +1,7 @@
 (function (angular) {
 
-    angular.module('dragyoda')
-        .service('dragyodaService', function () {
+    angular.module('hDragyoda')
+        .service('hDragyodaService', function () {
             this.closest = closest;
 
             function closest(draggable, droppables, fn) {

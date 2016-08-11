@@ -4,4 +4,19 @@
 
 Drag-and-drop's module for AngularJS
 
+## How to install 
+`npm i && bower i`
+
+## Quick start
+```javascript
+    angular.module('<yourModule>', ['hDragyoda']);
+```
+
+
+```html
+    <div h-draggable>Draggable Element</div>
+    <div h-droppable>Droppable Element</div>
+``` 
+
+Enjoy!
 
