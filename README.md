@@ -18,5 +18,10 @@ Drag-and-drop's module for AngularJS
     <div h-droppable>Droppable Element</div>
 ``` 
 
+To run the example,  just type the npm command:
+```
+    npm start
+```
+
 Enjoy!
 
