@@ -6,9 +6,6 @@ Drag-and-drop's module for AngularJS
 
 *Always pass on what you have learned.*
 
-## How to install 
-`npm i && bower i`
-
 ## Quick start
 ```javascript
     angular.module('<yourModule>', ['hDragyoda']);
@@ -22,7 +19,7 @@ Drag-and-drop's module for AngularJS
 
 To run the example,  just type the npm command:
 ```
-    npm start
+    npm i && bower i && npm start
 ```
 
 Enjoy!
